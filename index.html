@@ -1,82 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>HERO TV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
-    body{
-      margin:0;
-      min-height:100vh;
-      display:flex;
-      align-items:center;
-      justify-content:center;
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: black;
+    }
+
+    body {
+      background: url("hero-tv-splash.jpg") no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
       font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(135deg, #0b1416, #0f2b2f);
-      color:#ffffff;
-      text-align:center;
-      padding:24px;
     }
-    .card{
-      max-width:720px;
-      width:100%;
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(255,255,255,0.12);
-      border-radius: 18px;
-      padding: 34px 26px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
-    }
-    h1{
-      margin:0;
-      font-size:56px;
-      letter-spacing:2px;
-    }
-    .sub{
-      margin-top:10px;
-      font-size:16px;
-      opacity:0.85;
-    }
-    .pill{
-      margin:18px auto 0;
-      display:inline-block;
-      padding:10px 14px;
-      border-radius:999px;
-      border:1px solid rgba(255,255,255,0.18);
-      background: rgba(0,0,0,0.15);
-      font-size:14px;
-      opacity:0.95;
-    }
-    .btns{
-      margin-top:22px;
-      display:flex;
-      gap:12px;
-      justify-content:center;
-      flex-wrap:wrap;
-    }
-    a.btn{
-      text-decoration:none;
-      color:#fff;
-      padding:12px 16px;
-      border-radius:12px;
-      border:1px solid rgba(255,255,255,0.18);
-      background: rgba(255,255,255,0.10);
-      display:inline-block;
-    }
-    a.btn:hover{
-      background: rgba(255,255,255,0.16);
-    }
-    footer{
-      margin-top:18px;
-      font-size:12px;
-      opacity:0.7;
+
+    .disclaimer {
+      font-size: 12px;
+      color: rgba(255,255,255,0.6);
+      margin-bottom: 12px;
+      text-align: center;
     }
   </style>
 </head>
-<body>
-  <div class="card">
-    <h1>HERO TV</h1>
-    <div class="sub">powered by TI2 • Provided by G-Streams</div>
-    <div class="pill">Premium IPTV • Simple setup • Big sports • Movies • Live TV</div>
 
-    <div class="btns">
-      <a class="btn" href="#" onclick="alert('Add your contact info here'); return false;">Contact</
+<body>
+  <div class="disclaimer">
+    HERO TV provides access and technical support for third-party streaming services.
+  </div>
+</body>
+</html>
